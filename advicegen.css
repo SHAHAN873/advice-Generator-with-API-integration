@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #3B6061;
+}
+
+.body {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: content;
+      -ms-flex-pack: content;
+          justify-content: content;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 50vh;
+  width: 150vh;
+  margin-top: 100px;
+  font-family: "Oswald", sans-serif;
+  border-radius: 30px;
+  background-color: #0C4648;
+  -webkit-box-shadow: 10px 10px 20px 10px;
+          box-shadow: 10px 10px 20px 10px;
+}
+
+.body .adviceNum {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: x-large;
+}
+
+.body .adviceBody {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: xx-large;
+}
+
+hr {
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-bottom: 50px;
+  border-color: black;
+}
+
+.button {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: -20px;
+}
+
+button {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  background-color: #0C4648;
+  -webkit-box-shadow: 5px 5px 10px;
+          box-shadow: 5px 5px 10px;
+}
+
+button:hover {
+  background-color: aqua;
+}
+/*# sourceMappingURL=advicegen.css.map */
